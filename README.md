@@ -125,5 +125,57 @@ Execution time: 33550 ms
 ## Conclusion:
 These tests show how a team works together to say "Thank You" for gifts. With just 10 gifts, they finished really fast, in only 21 milliseconds. But when they had to handle 500,000 gifts, it took them a bit longer, about 33.55 seconds. This shows that the multithreading can work well, whether the number is big or small.
 
+# Problem two (Atmospheric Temperature Reading Module ):
+In this problem, I tried to test the run time using one test cases to simulate 5 hours
+The time efficiency of the solution is evident from the following test cases:
+
+## Test Case:
+
+Number of Threads = 8 
+Number of of Hours = 5 
+
+Output:
+```
+
+Top 5 Highest Temperatures: [-99, -100, -100, -100, -100]
+Top 5 Lowest Temperatures: [69, 69, 69, 70, 70]
+Largest Temperature Difference Observed During Minutes: 25 to 34
+End of Hour 1 Report
+
+=====================================
+
+Top 5 Highest Temperatures: [-99, -100, -99, -100, -100]
+Top 5 Lowest Temperatures: [68, 68, 70, 69, 68]
+Largest Temperature Difference Observed During Minutes: 37 to 46
+End of Hour 2 Report
+
+=====================================
+
+Top 5 Highest Temperatures: [-99, -100, -100, -100, -100]
+Top 5 Lowest Temperatures: [69, 69, 70, 69, 69]
+Largest Temperature Difference Observed During Minutes: 24 to 33
+End of Hour 3 Report
+
+=====================================
+
+Top 5 Highest Temperatures: [-100, -100, -100, -100, -100]
+Top 5 Lowest Temperatures: [69, 69, 69, 70, 69]
+Largest Temperature Difference Observed During Minutes: 30 to 39
+End of Hour 4 Report
+
+=====================================
+
+Top 5 Highest Temperatures: [-99, -99, -100, -100, -99]
+Top 5 Lowest Temperatures: [69, 70, 70, 70, 70]
+Largest Temperature Difference Observed During Minutes: 8 to 17
+End of Hour 5 Report
+
+=====================================
+
+```
+
+## Conclusion:
+This test checked how well a system with 8 threads could track temperature for 5 hours. It found the hottest and coldest temperatures and the biggest temperature jump each hour. The highest temperatures were very cold, around -99 to -100 degrees, and the lowest were between 68 to 70 degrees. 
+
 
 
