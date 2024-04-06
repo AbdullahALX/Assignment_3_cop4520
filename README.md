@@ -2,6 +2,22 @@
 In this problem, I tried to test the run time using two test cases , first with 10 presents and the second with 500,000 presents.
 The time efficiency of the solution is evident from the following test cases:
 
+
+## How to Run
+
+To execute the code, follow these steps:
+
+1. Compile the Java code:
+    ```sh
+    javac BirthdayPresentsParty.java
+    ```
+
+2. Run the compiled program:
+    ```sh
+    java BirthdayPresentsParty
+    ```
+
+
 ## Test Case 1:
 
 Number of Presents = 10
@@ -128,6 +144,22 @@ These tests show how a team works together to say "Thank You" for gifts. With ju
 # Problem two (Atmospheric Temperature Reading Module ):
 In this problem, I tried to test the run time using one test cases to simulate 5 hours
 The time efficiency of the solution is evident from the following test cases:
+
+
+## How to Run
+
+To execute the code, follow these steps:
+
+1. Compile the Java code:
+    ```sh
+    javac MarsRoverTemperatureModule.java
+    ```
+
+2. Run the compiled program:
+    ```sh
+    java MarsRoverTemperatureModule
+    ```
+
 
 ## Test Case:
 
